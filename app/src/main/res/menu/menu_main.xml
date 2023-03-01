@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:orderInCategory="1"
+        android:title="Search"
+        app:showAsAction="ifRoom" />
+    <item
+        android:orderInCategory="2"
+        android:title="New Group"
+        app:showAsAction="never" />
+    <item
+        android:orderInCategory="2"
+        android:title="New Broadcast"
+        app:showAsAction="never" />
+    <item
+        android:orderInCategory="2"
+        android:title="Linked Devices"
+        app:showAsAction="never" />
+    <item
+        android:orderInCategory="2"
+        android:title="Starred Messages"
+        app:showAsAction="never" />
+    <item
+        android:orderInCategory="2"
+        android:title="Payment"
+        app:showAsAction="never" />
+    <item
+        android:orderInCategory="2"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+
+</menu>
